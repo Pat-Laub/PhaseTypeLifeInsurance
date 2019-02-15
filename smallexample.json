@@ -1,0 +1,12 @@
+{
+	"NumberPhases": 2,
+	"NumberIterations": 3,
+	"ContinuePreviousFit": false,
+	"Structure": "Coxian",
+	"Sample": {
+		"Uncensored": {
+			"Observations": [1, 4, 6, 9],
+			"Weights": [1, 1, 2, 1]
+		}
+	}
+}

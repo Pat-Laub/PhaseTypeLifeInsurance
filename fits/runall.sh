@@ -1,0 +1,12 @@
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian20.json")' | ~/julia-1.0.0/bin/julia &> cox20.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian35.json")' | ~/julia-1.0.0/bin/julia &> cox35.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian40.json")' | ~/julia-1.0.0/bin/julia &> cox40.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian50.json")' | ~/julia-1.0.0/bin/julia &> cox50.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian75.json")' | ~/julia-1.0.0/bin/julia &> cox75.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian100.json")' | ~/julia-1.0.0/bin/julia &> cox100.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("General20.json")' | ~/julia-1.0.0/bin/julia &> gen20.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian125.json")' | ~/julia-1.0.0/bin/julia &> cox125.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian150.json")' | ~/julia-1.0.0/bin/julia &> cox150.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian175.json")' | ~/julia-1.0.0/bin/julia &> cox175.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian200.json")' | ~/julia-1.0.0/bin/julia &> cox200.out &
+echo 'include("emphtOdeMixedQuadTruncateUnifFast.jl"); em("Coxian250.json")' | ~/julia-1.0.0/bin/julia &> cox250.out &
